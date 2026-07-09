@@ -5,4 +5,4 @@ echo "Current Directory : $(pwd)"
 echo "Date : $(date)"
 sudo apt update
 sudo apt install -y niginx
-nginx --version
+nginx -version
